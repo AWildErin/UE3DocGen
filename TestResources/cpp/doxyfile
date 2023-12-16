@@ -1,0 +1,27 @@
+PROJECT_NAME = "TestProject"
+PROJECT_NUMBER = ""
+LOOKUP_CACHE_SIZE = 4
+OUTPUT_DIRECTORY = "./generated/"
+OUTPUT_LANGUAGE = English
+GENERATE_HTML = NO
+GENERATE_LATEX = NO
+GENERATE_XML = YES
+WARN_IF_UNDOCUMENTED = NO
+# QUIET = YES
+EXTRACT_ALL = YES
+WARNINGS = YES
+RECURSIVE = NO
+WARN_IF_UNDOCUMENTED = NO
+WARN_IF_DOC_ERROR = NO
+WARN_NO_PARAMDOC = NO
+ENABLE_PREPROCESSING = YES
+MACRO_EXPANSION = YES
+SKIP_FUNCTION_MACROS = NO
+
+INPUT=inc
+FILE_PATTERNS = *.h     \
+                *.c     \
+                *.hpp   \
+                *.cpp   \
+                *.inl   \
+                *.inc

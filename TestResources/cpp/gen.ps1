@@ -1,0 +1,1 @@
+Start-Process -NoNewWindow -FilePath ".\Test\Doxygen\doxygen.exe" -ArgumentList "doxyfile"
